@@ -1,0 +1,22 @@
+.app {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.artist-details-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: 1em 0;
+    padding: 1em 3em;
+    gap: 5rem;
+    background-color: #eee;
+}
+.artist-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
